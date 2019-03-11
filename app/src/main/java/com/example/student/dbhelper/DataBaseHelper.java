@@ -22,7 +22,7 @@ public class DataBaseHelper  extends SQLiteOpenHelper {
 
     public static final String COLUMN_ID = "_id";
     public static final String COLUMN_PRODUCT = "Products";
-    public static final Double COLUMN_PRICE = 0.0;
+    public static final String  COLUMN_PRICE = "Price";
     public static final String COLUMN_STORY = "Stores";
     public SQLiteDatabase database;
     private Context myContext;

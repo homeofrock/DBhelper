@@ -19,13 +19,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onClick"
-        android:text="Запрос к базе данных" />
+        android:text="Find cheapest" />
 
     <ListView
         android:id="@+id/userList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:focusable="true"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onEditClick"
+        android:textColor="#F53326"
+        android:text="Edit"
+        />
 
 </LinearLayout>
 
